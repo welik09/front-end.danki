@@ -1,3 +1,106 @@
-.estilo{
-    width: 100px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*  TRANSITION  */
+/*
+div.box{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition: 5s;
+}
+
+div.box:hover{
+    width: 600px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+form input{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    transition: 5s;
+}
+
+form input:focus{
+    width: 300px;
+}
+
+div.dox{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transition: 2s width, 2s height ,linear 5s ;
+
+    -webkit-transition-property:width height ;
+    transition-property: width height;
+    -webkit-transition-property:3s ;
+    transition-duration:2s;
+    transition-delay: 1s;
+    -webkit-transition-property: ease-out;
+    transition-timing-function: ease-out;
+    
+}
+
+div.dox:hover{
+    width: 600px;
+    height: 400px;
+}
+
+*/
+/* ANIMAÇAO */
+
+div.box{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(35, 133, 100);
+    
+    /*
+    animation-name: animacao_1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    */
+}
+
+div.box:hover{
+    animation: animacao_1 5s 2;
+    animation-delay:2s;
+}
+
+@keyframes animacao_1{
+    0%{
+        left: 10px;
+        top: 10px;
+        background-color: aqua;
+    }
+    25%{
+        border:10px solid black ;
+        width: 200px;
+        height: 200px;
+        left: 150px;
+        top: 100px;
+        background-color: bisque;
+    }
+    40%{
+        width: 100px;
+        height: 100px;
+        left: 500px;
+        top: 50px;
+        background-color: brown;
+    }
+    
+    100%{
+        width: 50px;
+        height: 50px;
+        left: 20px;
+        top: 10px;
+        background-color: blue;
+
+    }
 }
