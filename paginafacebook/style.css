@@ -52,7 +52,7 @@ form.form-login{
     border: 0;
     border: 2px solid #0C0585;
     background: #196eb4;
-    color: aliceblue;
+    color: rgb(42, 88, 129);
     padding: 5px 8px;
 }
 
@@ -61,7 +61,7 @@ form.form-login{
 }
 
 section.main{
-   background: linear-gradient(white, #d3d8e8);
+   background: linear-gradient(rgb(34, 24, 24), #d3d8e8);
    padding: 40px 0; 
 }
 
