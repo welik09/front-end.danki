@@ -234,3 +234,17 @@ animation-duration: 2s;
 
 /* word-wrap,word-break e white-space */
 
+.box{
+    width: 100%;
+    padding:30px 2%;
+    background-color: rgba(154, 212, 240, 0.911);
+    position: relative;
+}
+
+.box p{
+  display: inline;
+  border-bottom: 2px solid green;
+  color: #444;
+  font-size: 13px;
+}
+
